@@ -1,7 +1,8 @@
 package com.github.techshithoughts.actor_model_with_scala.actors
 
-import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import akka.pattern.ask
+import org.apache.pekko.actor.{Actor, ActorLogging, ActorRef, Props}
+import org.apache.pekko.pattern.ask
+import org.apache.pekko.util.Timeout
 import scala.concurrent.{Future, ExecutionContext}
 import scala.concurrent.duration.DurationInt
 import com.github.techshithoughts.actor_model_with_scala.actors.stateful.messages._
@@ -22,7 +23,7 @@ object SlackMessageCoordinator {
   )
 }
 
-import akka.util.Timeout
+
 
 class SlackMessageCoordinator(implicit ec: ExecutionContext)
     extends Actor

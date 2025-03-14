@@ -1,6 +1,6 @@
 package com.github.techshithoughts.actor_model_with_scala.actors.simple
 
-import akka.actor.{Actor, ActorLogging}
+import org.apache.pekko.actor.{Actor, ActorLogging}
 import com.github.techshithoughts.actor_model_with_scala.actors.simple.messages.{IntMessage, StringMessage, DoubleMessage}
 
 class SimpleActorSender extends Actor with ActorLogging {
