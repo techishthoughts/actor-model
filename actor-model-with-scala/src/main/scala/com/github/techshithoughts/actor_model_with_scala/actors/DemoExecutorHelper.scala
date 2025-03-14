@@ -4,7 +4,7 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 import org.apache.pekko.actor.{ActorSystem, Props, ActorRef}
-import  org.apache.pekko.pattern.ask
+import org.apache.pekko.pattern.ask
 import org.apache.pekko.util.Timeout
 
 import com.github.techshithoughts.actor_model_with_scala.actors.stateful._
