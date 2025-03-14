@@ -1,6 +1,6 @@
 package com.github.techshithoughts.actor_model_with_scala.actors.stateless
 
-import akka.actor.{Actor, ActorLogging, Props}
+import org.apache.pekko.actor.{Actor, ActorLogging, Props}
 import com.github.techshithoughts.actor_model_with_scala.actors.stateless.messages._
 
 // Companion object for StatelessActor, providing a factory method to create actor instances

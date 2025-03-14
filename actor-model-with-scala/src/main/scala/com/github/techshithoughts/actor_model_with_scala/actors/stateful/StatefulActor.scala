@@ -1,9 +1,10 @@
 package com.github.techshithoughts.actor_model_with_scala.actors.stateful
 
-import akka.actor.Actor
-import akka.actor.ActorLogging
-import com.github.techshithoughts.actor_model_with_scala.actors.stateful.messages._
-import akka.actor.Props
+import org.apache.pekko.actor.Actor
+import org.apache.pekko.actor.ActorLogging
+import com.github.techshithoughts.actor_model_with_scala.actors.stateful.messages.*
+import org.apache.pekko.actor.Props
+import org.apache.pekko.actor.ActorLogging
 
 object StatefulActor {
   def props(name: String, status: WorkerStatusStateful): Props = Props(
