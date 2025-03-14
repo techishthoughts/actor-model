@@ -50,3 +50,6 @@ build/
 
 ### Scala ###
 .bsp/
+
+### Maven ###
+*target/*
